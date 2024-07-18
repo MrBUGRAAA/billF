@@ -69,15 +69,15 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || "'",
+  HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "keen",
-  packname: process.env.PACK_NAME || "keensly",
-  botname : process.env.BOT_NAME  || "keensly",
-  ownername:process.env.OWNER_NAME|| "keensly",
+  author : process.env.PACK_AUTHER|| "₲ⱠɄ̈₵₭",
+  packname: process.env.PACK_NAME || "₲ⱠɄ̈₵₭",
+  botname : process.env.BOT_NAME  || "₲ⱠɄ̈₵₭",
+  ownername:process.env.OWNER_NAME|| "₲ⱠɄ̈₵₭",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "KEENSLY"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "₲ⱠɄ̈₵₭"  ).toUpperCase(),
 
 
 
